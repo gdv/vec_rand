@@ -10,6 +10,7 @@ path = "src/lib.rs"
 
 [dependencies]
 common_traits = "0.6.0"
+likely_stable = "0.1"
 
 [dev-dependencies]
 itertools = "0.8.0"
