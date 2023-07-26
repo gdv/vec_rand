@@ -4,7 +4,7 @@ use crate::cumsum;
 
 use super::random_f32;
 use ::core::cmp::Ordering;
-use core::intrinsics::unlikely;
+use likely_stable::unlikely;
 use core::panic;
 use core::result::Result::*;
 
